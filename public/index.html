@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Get Current Weather</h2>
+        <form>
+          <label for="country-select">
+            Name of country: <br />
+            <select id="country-select" required>
+              <option disabled selected>--select country name--</option>
+            </select>
+          </label>
+          <label for="city-select">
+            Name of city: <br />
+            <select id="city-select" required>
+              <option disabled selected>--select city name--</option>
+            </select>
+          </label>
+          <button>Get Weather Data</button>
+        </form>
+      </div>
+      <div class="card-2">
+        <div class="heading">
+          <h2 id="weather-description"></h2>
+          <img src="" alt="ICON" class="icon" />
+        </div>
+        <div class="weather-container">
+          <div class="weather-data">
+            <h3>Temperature: <span id="temp"></span></h3>
+          </div>
+          <div class="weather-data">
+            <h3>Humidity: <span id="humidity"></span></h3>
+          </div>
+          <div class="weather-data">
+            <h3>Visibility: <span id="visibility"></span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="img">
+        <img src="resources/weather.gif" alt="" />
+      </div>
+    </div>
+    <script src="js/location.json"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

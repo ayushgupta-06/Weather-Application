@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+*::selection {
+  background-color: white;
+  color: salmon;
+}
+body {
+  background-image: url("../resources/background.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .img {
+  width: 25vw;
+  height: 60vh;
+  border-radius: 1rem;
+}
+.container .img img {
+  width: 25vw;
+  height: 60vh;
+  mix-blend-mode: multiply;
+}
+.container .card {
+  min-width: 30vw;
+  height: 65vh;
+  border-radius: 1rem;
+  padding: 1rem;
+  opacity: 0.5;
+  background-color: black;
+}
+.container .card h2 {
+  text-align: center;
+  font-size: 2rem;
+  height: 20%;
+}
+.container .card form {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .card form button {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background-color: salmon;
+  cursor: pointer;
+}
+.container .card form button:hover {
+  opacity: 0.9;
+}
+.container .card form label {
+  font-size: 1rem;
+  padding: 1rem;
+}
+.container .card form select {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border: 1px solid salmon;
+  background-color: black;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  width: 100%;
+}
+.container .card form select option {
+  opacity: 0.5;
+  outline: none;
+  border: none;
+  color: salmon;
+  opacity: 0.5;
+}
+/* weather */
+.container .card-2 {
+  min-width: 30vw;
+  height: 65vh;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  opacity: 0.5;
+  position: relative;
+  top: -1000px;
+  display: none;
+}
+.container .card-2 .heading {
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.container .card-2 .heading h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.container .card-2 .weather-container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .card-2 .weather-container .weather-data {
+  width: 100%;
+  padding: 1rem;
+}
+.container .card-2 .weather-container .weather-data h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+@keyframes containerAnime {
+  from {
+    top: -1000px;
+  }
+  to {
+    top: 0px;
+  }
+}

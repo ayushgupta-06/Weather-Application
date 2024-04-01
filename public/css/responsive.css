@@ -1,0 +1,75 @@
+@media screen and (max-width: 2652px) {
+  html {
+    font-size: 24px;
+  }
+  .container .card form select {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .container .card form label {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1800px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1650px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 16px;
+  }
+  .container .card form select {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .container .card form label {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .card {
+    min-width: 45vw;
+  }
+  .container .img {
+    width: 35vw;
+  }
+  .container .img img {
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .container .img {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 13px;
+  }
+  .container .card {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 379px) {
+  html {
+    font-size: 12px;
+  }
+  .container .card {
+    width: 90vw;
+  }
+}
