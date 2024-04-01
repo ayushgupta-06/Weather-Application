@@ -6,7 +6,25 @@
     width: 100%;
     font-size: 1rem;
   }
+  .container .card form select option {
+    font-size: 0.5rem;
+  }
   .container .card form label {
+    font-size: 1.2rem;
+  }
+  .container .card-2 .heading h2 {
+    font-size: 2.5rem;
+  }
+  .container .card-2 .weather-container .weather-data h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 2400px) {
+  .container .card-2 .heading h2 {
+    font-size: 2.3rem;
+  }
+  .container .card-2 .weather-container .weather-data h3 {
     font-size: 1.2rem;
   }
 }
@@ -25,6 +43,9 @@
   html {
     font-size: 17px;
   }
+  .container .card form select option {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 1500px) {
   html {
@@ -37,9 +58,13 @@
   .container .card form label {
     font-size: 1rem;
   }
+  .container .card-2 .heading h2 {
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 1024px) {
-  .container .card {
+  .container .card,
+  .container .card-2 {
     min-width: 45vw;
   }
   .container .img {
@@ -49,27 +74,47 @@
     width: 35vw;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   html {
     font-size: 14px;
   }
   .container .img {
     display: none;
   }
+  .container .card-2 {
+    min-width: 50vw;
+  }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
+  .container .card-2 {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 519px) {
+  .container .card-2 .heading h2 {
+    font-size: 1.8rem;
+  }
+  .container .card-2 .weather-container .weather-data h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 430px) {
   html {
     font-size: 13px;
   }
-  .container .card {
-    width: 80vw;
+  .container .card,
+  .container .card-2 {
+    width: 90vw;
+  }
+  .container .card-2 .heading h2 {
+    font-size: 2rem;
+  }
+  .container .card-2 .weather-container .weather-data h3 {
+    font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 385px) {
   html {
     font-size: 12px;
-  }
-  .container .card {
-    width: 90vw;
   }
 }
