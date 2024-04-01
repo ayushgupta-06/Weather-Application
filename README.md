@@ -1,5 +1,5 @@
 # Weather App
-This repository contains the source code for the Weather App
+This repository contains the source code of my Weather App.
 
 ## **Project Description:**
 Through my weather app you can access weather information of any city.
@@ -14,21 +14,30 @@ Through my weather app you can access weather information of any city.
 
 NOTE: The actual website is hosted on a separate server due to security reasons. You can view the website live by clicking [here](https://ayushgupta-06-weather-app.cyclic.app/)
 
-## **To run the code on your system follow the given steps**
+## **Here is the step by step guide on how to run the code on your system**
 
-### 1. Software Dependencies - Node JS, Express JS, dotenv
+### 1. Download source code.
+
+Download the .zip file and extract it. 
+
+### 2. Software Dependencies - Node JS, Express JS, dotenv (skip if already installed)
 
 Download and Install Node JS for your platform from their official [website](https://nodejs.org/en/download)
 
-Now, Run following command on any Command-line interfaces (CLIs):
+Now open any Command-line interfaces (CLIs) and move to root directory of folder where you extracted the file and <br>
+Run the following commands to install the software dependencies:
 ```
 npm install express 
 npm install dotenv 
 ```
-### 2. Download source code .zip file and extract it.
 
-Open CLI and in the root directory of folder where you installed the code <br> Run command: `node server.js`
+### 3. Run server.js.
+Now open any Command-line interfaces (CLIs) and move to root directory of folder where you extracted the file and 
 
-### 3. Open any browser and type `localhost:3000` to view the website on port 3000.
 
-Hope you like my project! ♥
+run command `node server.js`
+
+
+Open any browser type `localhost:3000` to view the webiste
+
+# Hope you like my project! ♥
