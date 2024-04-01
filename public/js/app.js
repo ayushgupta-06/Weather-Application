@@ -50,7 +50,7 @@ let APIKEY = "";
 
 async function geoCoding(APIKEY) {
   const selectedCity = citySelect.value;
-  const geoCodingURL = `http://api.openweathermap.org/geo/1.0/direct?q=${selectedCity}&appid=${APIKEY}`;
+  const geoCodingURL = `https://api.openweathermap.org/geo/1.0/direct?q=${selectedCity}&appid=${APIKEY}`;
   let response = await fetch(geoCodingURL);
   let data = await response.json();
   let lat = data[0].lat;
